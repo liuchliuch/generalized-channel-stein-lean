@@ -1,0 +1,12 @@
+name = "paper-comparator-tools"
+version = "0.1.0"
+
+[[require]]
+name = "Comparator"
+git = "https://github.com/leanprover/comparator.git"
+rev = "066c3bc9e966ccad9a633d780ae4de13cd0f27b6"
+
+[[require]]
+name = "lean4export"
+git = "https://github.com/leanprover/lean4export.git"
+rev = "048394e1afeeb52b0fa27bcf3f1ade2ff0f0ab6d"

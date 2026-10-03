@@ -1,0 +1,16 @@
+.lake/
+**/.lake/
+.toolchain/
+*.olean
+*.ilean
+*.trace
+__pycache__/
+*.pyc
+.DS_Store
+/*-release.zip
+
+# Local Lean caches may be symbolic links outside the workspace.
+**/.lake
+
+# Generated source distributions.
+/*.zip

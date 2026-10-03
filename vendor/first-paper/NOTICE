@@ -1,0 +1,19 @@
+Selected source closure from the quantum-channel Stein formalization.
+Associated paper: Minbo Gao, Zhengfeng Ji, Chenghua Liu,
+https://arxiv.org/abs/2609.27196v1.
+Recorded upstream checkpoint: 7f67d3ea4e6f2edd595f9c1f356da2fcc9124c4d.
+This identifier is provenance from the supplied snapshot, not a newly
+recovered or independently authenticated Git history.
+
+This release contains the 185 mathematical modules required by the
+generalized-channel development and a public umbrella import. Unused
+modules and historical development material are omitted. The umbrella
+imports are reduced to this closure. Three source comments are updated
+for current terminology and license paths; mathematical tokens are
+unchanged in retained proof modules.
+
+UPSTREAM_SHA256 records original supplied source hashes, including files
+omitted from this subset. SOURCE_SHA256 records the distributed source.
+The Apache-2.0 license is reproduced in LICENSE. Further dependencies
+and their original notices are in vendor/lean-quantum and
+vendor/physlib-state. Reuse does not imply endorsement.

@@ -1,0 +1,25 @@
+A Generalized Stein Lemma for Quantum Channels in Lean
+Associated paper: Minbo Gao, Zhengfeng Ji, Chenghua Liu,
+https://arxiv.org/abs/2609.30762v1.
+
+The project reuses a selected source closure of the earlier quantum-channel
+Stein formalization in vendor/first-paper, associated with
+https://arxiv.org/abs/2609.27196v1. Its recorded source checkpoint is
+7f67d3ea4e6f2edd595f9c1f356da2fcc9124c4d.
+
+Further dependencies are distributed under Apache-2.0:
+- Hayata-Yamasaki-Group/lean-quantum, revision
+  bf1c4f6aaec84948f1a1c76c0728432813404a0f.
+- leanprover-community/physlib, revision
+  f6e446ca99fd83b3a60743a61900cb2acb98f531, with compatibility adaptations
+  and state-Stein bridge proofs. Reused Physlib proofs retain Alex Meiburg's
+  copyright/author headers.
+
+Dependency licenses, notices, and source-integrity manifests are retained
+within their respective vendor directories. The earlier library's
+SimultaneousDiagonalization and TraceNorm modules adapt Physlib arguments
+and retain their original copyright headers.
+
+See docs/dependencies.md for the exact release boundary. Attribution does
+not imply endorsement by the upstream authors. The paper itself is not
+included and remains under its original arXiv license.

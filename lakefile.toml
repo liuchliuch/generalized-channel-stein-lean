@@ -1,0 +1,21 @@
+name = "generalized-channel-stein-lean"
+version = "0.2.0"
+defaultTargets = ["GeneralizedChannelStein", "Paper"]
+
+[[require]]
+name = "quantum-channel-stein-lean"
+path = "vendor/first-paper"
+
+[[lean_lib]]
+name = "GeneralizedChannelStein"
+moreLeanArgs = ["-Dbackward.isDefEq.respectTransparency=false"]
+
+[[lean_lib]]
+name = "Paper"
+roots = ["Paper.Statements", "Paper.Proofs"]
+moreLeanArgs = ["-Dbackward.isDefEq.respectTransparency=false"]
+
+[[lean_lib]]
+name = "PaperChallenge"
+roots = ["Paper.Challenge"]
+moreLeanArgs = ["-Dbackward.isDefEq.respectTransparency=false"]

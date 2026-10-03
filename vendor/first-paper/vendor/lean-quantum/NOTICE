@@ -1,0 +1,15 @@
+Selected Lean source from Hayata-Yamasaki-Group/lean-quantum:
+https://github.com/Hayata-Yamasaki-Group/lean-quantum
+Revision: bf1c4f6aaec84948f1a1c76c0728432813404a0f.
+License: Apache-2.0, reproduced in LICENSE.
+
+This release retains 19 required mathematical modules and a matching
+Quantum.lean umbrella import. The unused module and development material
+are omitted. Mathlib is pinned to the exact project revision, and the
+unused checkdecls tool dependency is omitted.
+
+Four Japanese comments in Quantum/QuantumMechanics/QuantumChannel.lean
+are translated into English. All retained mathematical tokens are
+unchanged. UPSTREAM_SHA256 records the original supplied sources;
+SOURCE_SHA256 records the distributed subset and umbrella import.
+This copy does not imply endorsement by the authors.

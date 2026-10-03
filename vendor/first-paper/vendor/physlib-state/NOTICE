@@ -1,0 +1,32 @@
+Selected state-Stein source closure from Physlib:
+https://github.com/leanprover-community/physlib
+Revision: f6e446ca99fd83b3a60743a61900cb2acb98f531.
+Original author/copyright headers are retained. The upstream project is
+Apache-2.0; its license is reproduced in LICENSE.
+
+The supplied compatibility port originally contained 68 upstream modules
+and seven state-Stein bridge modules. This release retains the 60 upstream
+modules and all seven bridges required by the generalized-channel project.
+Unused sources, historical audit material and port logs are omitted.
+
+Compatibility target: Lean 4.29.0-rc6 and mathlib
+f156f7abd91ac67adb22bf999e5a71ba22e22e41.
+The original port record names Lean 4.34.1 and mathlib
+d13f23b723b8a846827a245b89c10fc7d3f11612 as its source-audit versions.
+Proof adaptations include import relocations, API/structure/coercion
+changes and explicit finite-dimensional matrix proof steps. Retained
+proof sources are unchanged by the present release cleanup.
+
+Overlapping trace-inequality modules re-export the shared Quantum
+implementation. Sion minimax has one canonical implementation under
+QuantumInfo/ForMathlib; the channel library re-exports it.
+
+The seven bridge modules are SingletonTheory, SingletonSteinBridge,
+TupleCoherence, TupleStates, OrdinaryStateStein, KernelFilledAlternative,
+and StateSteinDirect. They establish singleton state-Stein results,
+tensor coherence, singular-support reduction, and eventual tests in
+natural and base-two units.
+
+upstream-source-sha256.txt retains the original upstream hash inventory;
+source-sha256.txt records the distributed subset. No source outside this
+subset is included. Reuse does not imply endorsement by source authors.

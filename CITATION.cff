@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper when using this formalization."
+title: "A Generalized Stein Lemma for Quantum Channels in Lean"
+type: software
+version: 0.2.0
+license: Apache-2.0
+authors:
+  - family-names: Gao
+    given-names: Minbo
+  - family-names: Ji
+    given-names: Zhengfeng
+  - family-names: Liu
+    given-names: Chenghua
+preferred-citation:
+  type: article
+  title: "A Generalized Stein Lemma for Quantum Channels"
+  authors:
+    - family-names: Gao
+      given-names: Minbo
+    - family-names: Ji
+      given-names: Zhengfeng
+    - family-names: Liu
+      given-names: Chenghua
+  year: 2026
+  url: "https://arxiv.org/abs/2609.30762"
+  identifiers:
+    - type: other
+      value: "arXiv:2609.30762"
